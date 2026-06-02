@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 [*.cs]
 scharp_new_line_before_open_brace= none
+=======
+[*cs]
+scharp_new_line_before_open_brace =none
+>>>>>>> 8bccd6a29913bc764ae83706d5f4bf6fe4da4707

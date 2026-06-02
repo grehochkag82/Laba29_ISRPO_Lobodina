@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\poche\\Documents\\Lab29_RESTAPI\\TaskApi\\TaskApi.csproj": {}
+    "C:\\Users\\poche\\Documents\\Lab29_RestAPI\\TaskApi\\TaskApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\poche\\Documents\\Lab29_RESTAPI\\TaskApi\\TaskApi.csproj": {
+    "C:\\Users\\poche\\Documents\\Lab29_RestAPI\\TaskApi\\TaskApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\poche\\Documents\\Lab29_RESTAPI\\TaskApi\\TaskApi.csproj",
+        "projectUniqueName": "C:\\Users\\poche\\Documents\\Lab29_RestAPI\\TaskApi\\TaskApi.csproj",
         "projectName": "TaskApi",
-        "projectPath": "C:\\Users\\poche\\Documents\\Lab29_RESTAPI\\TaskApi\\TaskApi.csproj",
+        "projectPath": "C:\\Users\\poche\\Documents\\Lab29_RestAPI\\TaskApi\\TaskApi.csproj",
         "packagesPath": "C:\\Users\\poche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\poche\\Documents\\Lab29_RESTAPI\\TaskApi\\obj\\",
+        "outputPath": "C:\\Users\\poche\\Documents\\Lab29_RestAPI\\TaskApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,9 +30,9 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "framework": "net9.0",
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -49,13 +49,13 @@
         "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "framework": "net9.0",
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.16, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
